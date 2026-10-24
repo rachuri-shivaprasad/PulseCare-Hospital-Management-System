@@ -1,0 +1,112 @@
+# =============================================================
+# PulseCare Hospital Appointment and Queue Management System
+# .gitignore — keeps secrets, build artifacts, and data files out of Git
+# =============================================================
+
+# ---------------------------------------------------------------
+# Node / Frontend
+# ---------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend build output (Vite / React)
+dist/
+dist-ssr/
+build/
+
+# ---------------------------------------------------------------
+# Java / Maven Backend
+# ---------------------------------------------------------------
+# Maven build output
+backend/target/
+
+# Maven wrapper cache
+.mvn/repository/
+
+# Compiled Java class files
+*.class
+
+# JAR / WAR / EAR
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ---------------------------------------------------------------
+# H2 Database Files (local data — do NOT commit)
+# ---------------------------------------------------------------
+*.mv.db
+*.trace.db
+data/
+backend/data/
+
+# ---------------------------------------------------------------
+# Environment Variables and Secrets
+# ---------------------------------------------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.secret
+secrets.*
+*secret*
+credentials.*
+
+# ---------------------------------------------------------------
+# IDE / Editor Temporary Files
+# ---------------------------------------------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# VSCode (keep settings.json if desired; exclude workspace-specific caches)
+.vscode/*.code-workspace
+.vscode/.ropeproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V2
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------
+logs/
+*.log
+
+# ---------------------------------------------------------------
+# Testing & Coverage
+# ---------------------------------------------------------------
+coverage/
+*.lcov
+.nyc_output/
+
+# ---------------------------------------------------------------
+# Miscellaneous
+# ---------------------------------------------------------------
+*.bak
+*.swp
+*.tmp
+~$*
