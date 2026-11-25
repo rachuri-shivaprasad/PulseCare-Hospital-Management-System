@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
-import { initialAppointments } from '../data/initialAppointments';
-import { mockDoctors } from '../data/mockDoctors';
+import { initialAppointments } from '../data/initialAppointments.js';
+import { mockDoctors } from '../data/mockDoctors.js';
 import { playQueueChime } from '../components/AudioNotification';
 import { api } from '../services/api';
 

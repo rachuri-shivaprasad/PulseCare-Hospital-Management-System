@@ -11,7 +11,7 @@ import {
   CalendarPlus
 } from 'lucide-react';
 import { useAppointmentQueue } from '../context/AppointmentQueueContext';
-import { hospitalDepartments } from '../data/mockDoctors';
+import { hospitalDepartments } from '../data/mockDoctors.js';
 
 export const DoctorsPage = () => {
   const { doctors, activeConsultations } = useAppointmentQueue();

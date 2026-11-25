@@ -24,7 +24,7 @@ import {
 import { useAppointmentQueue } from '../context/AppointmentQueueContext';
 import { TokenSlipModal } from '../components/TokenSlipModal';
 import { ManualPaymentVerificationModal } from '../components/ManualPaymentVerificationModal';
-import { hospitalDepartments } from '../data/mockDoctors';
+import { hospitalDepartments } from '../data/mockDoctors.js';
 
 
 export const ReceptionistDashboardPage = () => {
